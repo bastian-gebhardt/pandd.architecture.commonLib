@@ -25,7 +25,7 @@
 		<copy todir=".">
 		    <fileset dir="lib/${arche_groupIdAsPath}/${arche_artifactId}/skeleton" includes="**/*" />
 		</copy>
-		<move file="gitignore" tofile=".gitignore"/>
+		<copy file="lib/${arche_groupIdAsPath}/${arche_artifactId}/gitignore" tofile=".gitignore" />
 		<copy file="lib/${arche_groupIdAsPath}/${arche_artifactId}/empty_gitignore" tofile="lib/.gitignore" />
 		<copy file="lib/${arche_groupIdAsPath}/${arche_artifactId}/empty_gitignore" tofile="dist/compiled/.gitignore" />
 	</target>
