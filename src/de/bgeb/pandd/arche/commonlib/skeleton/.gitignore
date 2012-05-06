@@ -1,5 +1,9 @@
 /.project
 /.settings
-/dist
-/lib
+/dist/*/
+!/dist/compiled
+/dist/compiled/*/
+!/dist/compiled/.gitignore
+/lib/*/
+!/lib/.gitignore
 /setup.xml
