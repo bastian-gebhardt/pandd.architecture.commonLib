@@ -1,4 +1,6 @@
 /.project
+/.buildpath
+/.classpath
 /.settings
 /dist/*/
 !/dist/compiled
