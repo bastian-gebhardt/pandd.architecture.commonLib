@@ -46,7 +46,7 @@
     
     <snapshotRepository>
         <id>php-snapshot-upload</id>
-        <name>sx165 Snapshot Repository</name>
+        <name>Snapshot Repository</name>
         <url>http://localhost:8080/archiva/repository/snapshots/</url>
         <uniqueVersion>false</uniqueVersion>
     </snapshotRepository>
