@@ -2,10 +2,12 @@
 <project name="pandd_build_impl" basedir="." xmlns:artifact="antlib:org.apache.maven.artifact.ant">
     <description>
     	Implementation from Build file for Pandd Framework Developing
-    	(there are nothing to configure in this file)
     </description>
 
+	<!-- hier muss die selbe pandd-Version definiert werden, wie in der pom.xml -->
+	<property name="pandd.framework.version" value="0.2.0-SNAPSHOT" />
 	
+	<!-- (there are nothing to configure under this line) -->
 	
     <!-- Betriebssystemunabhaengige Loesung finden -->
     <exec executable="sed" inputstring="${project_groupId}" outputproperty="project_groupId_as_path">
@@ -52,6 +54,7 @@
         <copy file="lib/de/bgeb/pandd/framework/build-interface.xml" tofile="build.xml" />
         <replace file="build.xml" token="@add_project_name_here@" value="${project_artifactId}"/>
         <replace file="build.xml" token="@add_arche-package_here@" value="lib/${arche_groupIdAsPath}/${arche_artifactId}"/>
+        <replace file="build.xml" token="@add_pandd-framework-version_here@" value="${pandd.framework.version}"/>
 	</target>
 
 	
