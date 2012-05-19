@@ -26,4 +26,8 @@
 	    </dependency>
     </dependencies>
   
+   <properties>
+   		<pandd.packaging.lib>de/bgeb/pandd/package/lib.xml</pandd.packaging.lib>
+   </properties>
+  
 </project>
