@@ -11,7 +11,7 @@
       <arg value="s/\./\//g"/>
     </exec>
     	
-	<target name="setup" depends="_copy_skeleton, _create_package_folders, _copy_pom, _copy_build-interface">
+	<target name="setup" depends="_copy_skeleton, _create_package_folders, _copy_pom, _copy_build-interface, _load_dependencies">
 		<!-- move pandd into lib-folder -->
 		<!-- copy skeleton -->
 		<!-- create src/groupId/artifactId -->
@@ -49,4 +49,7 @@
         <replace file="build.xml" token="@add_arche-package_here@" value="lib/${arche_groupIdAsPath}/${arche_artifactId}"/>
 	</target>
 
+	<target name="_load_dependencies">
+		<ant antfile="build.xml" target="update-dependencies" />
+	</target>
 </project>
