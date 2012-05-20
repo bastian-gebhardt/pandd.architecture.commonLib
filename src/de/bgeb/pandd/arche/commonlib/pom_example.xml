@@ -5,11 +5,7 @@
   
 	<name>@add_project_artifacId_here@</name>
 
-      <parent>
-      	<groupId>de.bgeb</groupId>
-      	<artifactId>bgeb-superpom</artifactId>
-      	<version>1.0.0</version>
-      </parent>
+    <!-- @add_parent_pom_here@ -->
 
 	<groupId>@add_project_groupId_here@</groupId>
     <artifactId>@add_project_artifacId_here@</artifactId>
@@ -37,5 +33,7 @@
    		<pandd.packaging.jar>de/bgeb/pandd/package/lib.xml</pandd.packaging.jar>
    		<pandd.packaging.zip>de/bgeb/pandd/package/app.xml</pandd.packaging.zip>
    </properties>
+  
+  <!-- @add_repo_settings_here@ -->
   
 </project>
