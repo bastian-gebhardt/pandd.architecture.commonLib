@@ -13,6 +13,13 @@
     <packaging>jar</packaging>
     
     <dependencies>
+        <dependency>
+    		<groupId>org.sebastianbergmann</groupId>
+    		<artifactId>phpunit</artifactId>
+    		<version>3.6.10</version>
+    		<scope>test</scope>
+    	</dependency>
+    	
 <!-- pandd framework dependencies -->
 	    <dependency>
 	      <groupId>de.bgeb.pandd.arche</groupId>
@@ -26,12 +33,19 @@
 	      <version>0.1.0-SNAPSHOT</version>
 	      <scope>test</scope>
 	    </dependency>
+	    <dependency>
+	      <groupId>de.bgeb.pandd</groupId>
+	      <artifactId>bootstrap</artifactId>
+	      <version>0.1.0-SNAPSHOT</version>
+	      <scope>test</scope>
+	    </dependency>
 <!-- pandd framework dependencies -->
     </dependencies>
   
    <properties>
    		<pandd.packaging.jar>de/bgeb/pandd/package/lib.xml</pandd.packaging.jar>
    		<pandd.packaging.zip>de/bgeb/pandd/package/app.xml</pandd.packaging.zip>
+   		<pandd.bootstrap.dev>de/bgeb/pandd/bootstrap/dev.xml</pandd.bootstrap.dev>
    </properties>
   
   <!-- @add_repo_settings_here@ -->
