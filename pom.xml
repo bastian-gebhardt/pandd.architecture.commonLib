@@ -3,23 +3,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   
-	<name>common-lib</name>
+	<name>pandd.architecture.commonLib</name>
 
-      <parent>
-      	<groupId>de.bgeb</groupId>
-      	<artifactId>bgeb-superpom</artifactId>
-      	<version>1.0.0</version>
-      </parent>
-
-	<groupId>de.bgeb.pandd.arche</groupId>
-    <artifactId>commonlib</artifactId>
-    <version>1.0.0</version>
+	<groupId>de.bgeb.pandd.architecture</groupId>
+    <artifactId>commonLib</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     
     <dependencies>
 	    <dependency>
 	      <groupId>de.bgeb.pandd</groupId>
-	      <artifactId>framework</artifactId>
-	      <version>1.0.0</version>
+	      <artifactId>core</artifactId>
+	      <version>1.0.0-SNAPSHOT</version>
 	    </dependency>
     </dependencies>
 
