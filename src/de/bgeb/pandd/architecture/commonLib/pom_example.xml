@@ -22,30 +22,30 @@
     	
 <!-- pandd framework dependencies -->
 	    <dependency>
-	      <groupId>de.bgeb.pandd.arche</groupId>
-	      <artifactId>commonlib</artifactId>
-	      <version>1.0.0</version>
+	      <groupId>de.bgeb.pandd.architecture</groupId>
+	      <artifactId>commonLib</artifactId>
+	      <version>1.0.0-SNAPSHOT</version>
 	      <scope>test</scope>
 	    </dependency>
 	    <dependency>
-	      <groupId>de.bgeb.pandd</groupId>
+	      <groupId>de.bgeb.pandd.plugin</groupId>
 	      <artifactId>package</artifactId>
-	      <version>1.0.0</version>
+	      <version>1.0.0-SNAPSHOT</version>
 	      <scope>test</scope>
 	    </dependency>
 	    <dependency>
-	      <groupId>de.bgeb.pandd</groupId>
+	      <groupId>de.bgeb.pandd.plugin</groupId>
 	      <artifactId>bootstrap</artifactId>
-	      <version>1.0.0</version>
+	      <version>1.0.0-SNAPSHOT</version>
 	      <scope>test</scope>
 	    </dependency>
 <!-- pandd framework dependencies -->
     </dependencies>
   
    <properties>
-   		<pandd.packaging.jar>de/bgeb/pandd/package/lib.xml</pandd.packaging.jar>
-   		<pandd.packaging.zip>de/bgeb/pandd/package/app.xml</pandd.packaging.zip>
-   		<pandd.bootstrap.dev>de/bgeb/pandd/bootstrap/dev.xml</pandd.bootstrap.dev>
+   		<pandd.packaging.jar>de/bgeb/pandd/plugin/package/lib.xml</pandd.packaging.jar>
+   		<pandd.packaging.zip>de/bgeb/pandd/plugin/package/app.xml</pandd.packaging.zip>
+   		<pandd.bootstrap.dev>de/bgeb/pandd/plugin/bootstrap/dev.xml</pandd.bootstrap.dev>
    </properties>
   
   <!-- @add_repo_settings_here@ -->
