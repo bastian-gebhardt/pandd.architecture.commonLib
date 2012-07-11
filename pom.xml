@@ -6,14 +6,14 @@
 	<name>pandd.architecture.commonLib</name>
 
 	<groupId>de.bgeb.pandd.architecture</groupId>
-    <artifactId>commonLib</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+  <artifactId>commonLib</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
     
     <dependencies>
 	    <dependency>
 	      <groupId>de.bgeb.pandd</groupId>
 	      <artifactId>core</artifactId>
-	      <version>1.0.0-SNAPSHOT</version>
+	      <version>1.0.0</version>
 	    </dependency>
     </dependencies>
 
